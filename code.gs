@@ -53,9 +53,9 @@ function transferQuestions(spreadsheet, form, header, N_answers, description = f
   // grid_rows = array of string, names of rows (only supported for each question to have the same rows for the moment)
 
 
-  // var data = spreadsheet.getDataRange().getValues();
-  var n_rows = 5; //for debugging large sheets, set this to a small number to avoid running through the whole sheet
-  var data = spreadsheet.getRange(1,1,n_rows, N_answers + 2 + description).getValues();
+  var data = spreadsheet.getDataRange().getValues();
+//   var n_rows = 5; //for debugging large sheets, set this to a small number to avoid running through the whole sheet
+//   var data = spreadsheet.getRange(1,1,n_rows, N_answers + 2 + description).getValues();
   var header_discounted = false;
 
   data.forEach(function (row) {
