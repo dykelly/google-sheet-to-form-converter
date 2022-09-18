@@ -26,7 +26,7 @@ To transfer the data from a google sheet to a google form:
     ```
 7) Press `Save Project`. This is important to update the code.
 8) Open the toggle menu that has the word `setup` (to the right from Run), and select `main` like in the picture:
-![Code section toggle menu ](/instructions1.png)
+![Code section toggle menu ](/instructions2.png)
 9) Press `Run`. 
     - You will need to review permissions to allow this project to access the google sheet data and modify your google form. 
     - Hopefully it runs! Check the logs at the bottom of the page for any hints if something goes wrong. 
